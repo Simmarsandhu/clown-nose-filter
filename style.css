@@ -1,0 +1,21 @@
+h1 {
+    font-size: 30px !important;
+}
+.btn-success:hover {
+ background-color: black;
+ color: white;
+}
+canvas{
+    animation-name: canvas1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes canvas1{
+    from{
+        box-shadow: 1px 1px 30px black;
+    }
+    to{
+        box-shadow: 1px 1px 30px blue;
+    }
+}
